@@ -393,6 +393,18 @@ section {
     text-align: center;
   }
 
+  .nav__link__footer {
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+.nav__link__footer {
+    display: flex;
+}
+
+
+
   /* ESTILOS DE SWITCH */
 
   .switch {
