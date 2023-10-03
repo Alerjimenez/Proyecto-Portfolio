@@ -434,4 +434,8 @@ section {
     border: solid thin #ffff;
   }
 
+  body.active nav {
+    background-color: #313131;
+  }
+
 
