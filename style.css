@@ -102,7 +102,7 @@ a:hover {
     max-height: 0;
     overflow: hidden;
     transition: all 0.3 ease-in-out;
-}
+    }
 
 .menu__link a {
     display: block;
@@ -422,26 +422,35 @@ section {
     background-color: rgb(85, 85, 85);
 
   }
-
+  
   .switch i {
     font-size: 1rem;
     color: #fdc21c;
   }
-  
-  .nav__link li:last-child::before {
+
+  .nav__link li:last-child.active i:first-child {
+    color: #fff;
+  }
+
+  .nav__link li:last-child.active {
+    background-color: chocolate;
+      
+  }
+
+    .nav__link li:last-child::before {
     content: "";
     position: absolute;
     height: 30px;
     width: 30px;
     border-radius: 50%;
     background-color: #ffff;
-    border: solid thin #0000;
+    border: solid thin #000;
     left: 0;
     right: unset;
 
   }
 
-  .nav__link li:last-child.active::before {
+    .nav__link li:last-child.active::before {
     right: 0;
     left: unset;
     border: solid thin #ffff;
