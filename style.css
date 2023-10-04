@@ -443,17 +443,18 @@ section {
     height: 30px;
     width: 30px;
     border-radius: 50%;
-    background-color: #ffff;
+    background-color: whitesmoke ;
     border: solid thin #000;
     left: 0;
     right: unset;
-
+    
   }
 
     .nav__link li:last-child.active::before {
     right: 0;
     left: unset;
     border: solid thin #ffff;
+    background-color: #313131;
 
   }
 
