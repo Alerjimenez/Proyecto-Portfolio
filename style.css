@@ -501,8 +501,34 @@ section {
 
  /* HAMBURGUER DARK MODE */
 
- body.active .menu__link a {
+ body.active .menu__link {
     background-color: #2c2c2c;
-    color: #cfcfcf;
-   
+      
  }
+
+ body.active .menu__link a {
+    color: #cfcfcf;
+      
+ }
+
+ .menu__link li:last-child::before {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: whitesmoke ;
+    border: solid thin #000;
+    left: 0;
+    right: unset;
+    
+  }
+
+  .menu__link li:last-child.active::before {
+    right: 0;
+    left: unset;
+    border: solid thin #ffff;
+    background-color: #313131;
+  }
+ 
+    
