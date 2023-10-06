@@ -410,7 +410,7 @@ section {
 
   .switch {
     width: 60px;
-    height: 35px;
+    height: 32px;
     padding: 0 3px;
     cursor: pointer;
     display: flex;
@@ -422,7 +422,7 @@ section {
     background-color: rgb(85, 85, 85);
 
   }
-  
+    
   .switch i {
     font-size: 1rem;
     color: #fdc21c;
@@ -434,7 +434,7 @@ section {
 
   .nav__link li:last-child.active {
     background-color: chocolate;
-      
+          
   }
 
     .nav__link li:last-child::before {
@@ -453,7 +453,7 @@ section {
     .nav__link li:last-child.active::before {
     right: 0;
     left: unset;
-    border: solid thin #ffff;
+    border: solid thin rgb(85, 85, 85);
     background-color: #313131;
 
   }
@@ -476,6 +476,7 @@ section {
  
  body.active {
     background-color: #2c2c2c;
+    
  }
 
  body.active section h1 {
@@ -530,5 +531,7 @@ section {
     border: solid thin #ffff;
     background-color: #313131;
   }
+
+  
  
     
