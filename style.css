@@ -114,9 +114,6 @@ a:hover {
     transition: all 0.3 ease-in-out;
 }
 
-.menu__link li {
-    list-style: none;
-}
 
 .menu__link.open {
     max-height: 300px;
@@ -147,6 +144,7 @@ a:hover {
 .hamburger__icon span:first-child {
     transform: none;
 }
+
 
 /* SECTIONS */
 
@@ -406,7 +404,7 @@ section {
 
 
 
-  /* ESTILOS DE SWITCH */
+  /* DARK MODE SWITCH */
 
   .switch {
     width: 60px;
@@ -424,7 +422,7 @@ section {
   }
     
   .switch i {
-    font-size: 1rem;
+    font-size: 1.3rem;
     color: #fdc21c;
   }
 
@@ -512,26 +510,16 @@ section {
       
  }
 
- .menu__link li:last-child::before {
-    content: "";
-    position: absolute;
-    height: 30px;
-    width: 30px;
-    border-radius: 50%;
-    background-color: whitesmoke ;
-    border: solid thin #000;
-    left: 0;
-    right: unset;
-    
-  }
+  
+  
 
-  .menu__link li:last-child.active::before {
-    right: 0;
-    left: unset;
-    border: solid thin #ffff;
-    background-color: #313131;
-  }
 
+
+ 
+ 
+
+ 
+  
   
  
     
