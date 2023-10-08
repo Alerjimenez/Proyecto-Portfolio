@@ -174,8 +174,18 @@ section {
     height: 400px;
     width: 400px;
     margin: auto 0;
-}
+   }
 
+   .profile-pic {
+    border-radius: 50%;
+    height: 390px;
+    width: 390px;
+    padding-top: 1rem;
+    
+
+    }
+
+   
 .section__text {
     align-self: center;
     text-align: center;
